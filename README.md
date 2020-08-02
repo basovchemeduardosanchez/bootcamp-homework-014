@@ -47,19 +47,15 @@ registration allowing to save the user and password in a local database.
 
 ### File Structure
 
-#### /
-
-The main project folder
-
-##### /.gitignore
+#### /.gitignore
 
 Includes file patterns to ignore when commiting files into the repository
 
-##### /activity_instructions.md
+#### /activity_instructions.md
 
 The instructions given for this activity
 
-##### /package.json
+#### /package.json
 
 This file contains project information including the dependencies for the
 project, which in this case are:
@@ -74,33 +70,33 @@ project, which in this case are:
 - `express-session`: This is a library to manage data in a session, which is
     useful to keep things like a shopping cart or other details
 
-##### /package-lock.json
+#### /package-lock.json
 
 This file gets created after the execution of `npm install`. It contains the
 fixed versions of the dependencies that are downloaded. When this file is
 committed to the repository, the next time the application is installed, `npm` will make sure that the exact same versions of the dependencies are installed
 
-##### /README.md
+#### /README.md
 
 This file
 
-##### /server.js
+#### /server.js
 
 The main file of the application. This file initializes Express.js with all of
 the dependencies needed and imports the routes of the application from other
 files in the project
 
-##### /config
+#### /config
 
 This folder contains configuration files for Passport and Sequelize
 
-###### /config/config.json
+##### /config/config.json
 
 This JSON file contains the configuration for Sequelize to connect to the MySQL database. 
 
 **IMPORTANT**: The details here should be changed to match those of your local database to start developing the application
 
-###### /config/passport.js
+##### /config/passport.js
 
 This is the configuration file for Passport. In it, passport is told to use the
 "Local" strategy to allow us to manage the users ourselves. This file also
@@ -126,7 +122,7 @@ The following describes our authentication flow:
         second parameter set to the record in the database corresponding to the
         email that was passed, which means authentication succeeded
 
-###### /config/middleware
+##### /config/middleware
 
 Stores files that will be used as Express.js middleware functions. According to
 the Express.js documentation at https://expressjs.com/en/guide/using-middleware.html
@@ -154,5 +150,4 @@ are:
 The middleware functions stores in this directory are custom.
 
 ###### /config/middleware/isAuthenticated.js
-
 

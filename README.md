@@ -126,3 +126,33 @@ The following describes our authentication flow:
         second parameter set to the record in the database corresponding to the
         email that was passed, which means authentication succeeded
 
+###### /config/middleware
+
+Stores files that will be used as Express.js middleware functions. According to
+the Express.js documentation at https://expressjs.com/en/guide/using-middleware.html
+
+> Middleware functions are functions that have access to the request object
+> (`req`), the response object (`res`), and the next middleware function in the
+> application’s request-response cycle. The next middleware function is commonly
+> denoted by a variable named `next`.
+>
+> Middleware functions can perform the following tasks:
+>
+> - Execute any code.
+> - Make changes to the request and the response objects.
+> - End the request-response cycle.
+> - Call the next middleware function in the stack.
+
+This means that a middleware function is a function that can make further
+processing of the request and response objects. Popular middlewares in Express
+are:
+
+- The `json` middleware, which processes JSON objects sent in the request body
+    to a route
+- The `urlencoded` middleware which can process form data sent by an HTML form
+
+The middleware functions stores in this directory are custom.
+
+###### /config/middleware/isAuthenticated.js
+
+

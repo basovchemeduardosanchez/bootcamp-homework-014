@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js"
+    "watch": "nodemon server.js",
+    "architecture_diagram": "npx arkit . -o ./readme_assets/architecture_diagram.svg"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +20,8 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "sequelize": "^5.8.6"
+  },
+  "devDependencies": {
+    "arkit": "^1.6.4"
   }
 }

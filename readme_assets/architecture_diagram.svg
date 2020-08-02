@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="310px" preserveAspectRatio="none" style="width:691px;height:310px;" version="1.1" viewBox="0 0 691 310" width="691px" zoomAndPan="magnify"><defs/><g><!--MD5=[a6f11bb19cee6b13000111f5ad685e8b]
+cluster Dependencies--><path d="M25,215 L119,215 A4.5,4.5 0 0 1 122,218 L129,235.4844 L676,235.4844 A3,3 0 0 1 679,238.4844 L679,295 A3,3 0 0 1 676,298 L25,298 A3,3 0 0 1 22,295 L22,218 A3,3 0 0 1 25,215 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="129" y1="235.4844" y2="235.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="26" y="229.0059">Dependencies</text><!--MD5=[2175ea9c213c2ac0d57c4a91b2603145]
+entity bcryptjs--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="66" x="455" y="248"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="450" y="253"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="450" y="272.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="465" y="270.0059">bcryptjs</text><!--MD5=[6d151e53a42aadf92577082572a20d90]
+entity express--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="65" x="168.5" y="248"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="163.5" y="253"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="163.5" y="272.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="45" x="178.5" y="270.0059">express</text><!--MD5=[b63562ad16c1c7ef658e32441eee3703]
+entity express-session--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="116" x="38" y="248"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="33" y="253"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="33" y="272.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="96" x="48" y="270.0059">express-session</text><!--MD5=[5b664cc8bcefab73fc33c9a94f496f7e]
+entity passport-local--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="104" x="337" y="248"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="332" y="253"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="332" y="272.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="347" y="270.0059">passport-local</text><!--MD5=[890ddbad9c25f24f170c5bf6601d4264]
+entity passport/passport--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="127" x="535.5" y="248"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="530.5" y="253"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="530.5" y="272.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="107" x="545.5" y="270.0059">passport/passport</text><!--MD5=[8f2731bd439a760758b337fee9e202b6]
+entity sequelize--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="75" x="247.5" y="248"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="242.5" y="253"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="242.5" y="272.4844"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="55" x="257.5" y="270.0059">sequelize</text><ellipse cx="341.2193" cy="43.242" fill="#F8F8F8" rx="44.7193" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="59" x="311.7193" y="46.9842">api-routes</text><ellipse cx="389.0426" cy="98.7085" fill="#F8F8F8" rx="61.5426" ry="14.7085" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="92" x="343.0426" y="102.4507">config/passport</text><ellipse cx="231.8762" cy="43.242" fill="#F8F8F8" rx="50.3762" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="198.3762" y="46.9842">html-routes</text><ellipse cx="216.9845" cy="155.3969" fill="#F8F8F8" rx="59.9845" ry="14.3969" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="88" x="172.9845" y="159.1391">isAuthenticated</text><ellipse cx="498.8345" cy="43.242" fill="#F8F8F8" rx="26.3345" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="482.3345" y="46.9842">login</text><ellipse cx="586.1335" cy="43.242" fill="#F8F8F8" rx="46.1335" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="555.6335" y="46.9842">members</text><ellipse cx="324.9056" cy="155.742" fill="#F8F8F8" rx="33.4056" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="303.4056" y="159.4842">models</text><ellipse cx="134.9914" cy="43.242" fill="#F8F8F8" rx="31.9914" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="41" x="114.4914" y="46.9842">server</text><ellipse cx="499.1127" cy="98.742" fill="#F8F8F8" rx="34.1127" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="44" x="477.1127" y="102.4842">signup</text><ellipse cx="488.0061" cy="155.742" fill="#F8F8F8" rx="23.5061" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="29" x="473.5061" y="159.4842">user</text><!--MD5=[5877cd44d8360efc24c0ac96e542b4e1]
+link api-routes to config/passport--><path d="M351.653,55.873 C358.109,63.069 366.454,72.371 373.618,80.356 " fill="none" id="api-routes-&gt;config/passport" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="377.027,84.155,373.9944,74.7847,373.6881,80.4332,368.0395,80.1269,377.027,84.155" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[49d8bbdbc9a05cfb47c5a0455a34e941]
+link api-routes to models--><path d="M332.736,55.988 C327.984,63.627 322.478,73.948 320,84 C315.605,101.826 318.056,122.898 320.851,137.332 " fill="none" id="api-routes-&gt;models" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="321.884,142.331,323.9809,132.708,320.8727,137.4343,316.1463,134.3261,321.884,142.331" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[cbb9a8c41440f03181c69b18039f844f]
+link config/passport to models--><path d="M373.507,112.814 C364.055,120.937 351.957,131.333 342.208,139.712 " fill="none" id="config/passport-&gt;models" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="338.188,143.166,347.6212,140.3351,341.9805,139.9077,342.4079,134.267,338.188,143.166" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[8c064d7150d398219a8617e7ac30f92c]
+link config/passport to passport-local--><path d="M389,113.242 C389,141.901 389,208.229 389,242.5551 " fill="none" id="config/passport-&gt;passport-local" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="389,247.7787,393,238.7787,389,242.7787,385,238.7787,389,247.7787" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[30e9daa3c02381f566fa27036ffeb2e1]
+link config/passport to passport/passport--><path d="M430.14,109.411 C462.668,117.829 504.872,130.224 519,141 C554.467,168.05 578.843,215.6407 590.708,243.0178 " fill="none" id="config/passport-&gt;passport/passport" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="592.777,247.8849,592.9361,238.0373,590.8204,243.2836,585.574,241.168,592.777,247.8849" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[7b87959264c75b56cd2cc8179ef04b54]
+link html-routes to isAuthenticated--><path d="M230.337,56.248 C227.725,75.495 222.638,112.966 219.557,135.661 " fill="none" id="html-routes-&gt;isAuthenticated" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="218.857,140.817,224.0318,132.4372,219.5299,135.8625,216.1046,131.3606,218.857,140.817" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[68116e9afac3fe9b92e706c99b8dbdfe]
+link models to sequelize--><path d="M320.566,168.415 C313.872,186.406 301.089,220.7621 292.81,243.0109 " fill="none" id="models-&gt;sequelize" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="291.013,247.8389,297.9007,240.7991,292.7568,243.1529,290.4031,238.0089,291.013,247.8389" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[00eca63fe0a8956e3ea2b787e951db21]
+link <b>server</b> to api-routes--><path d="M150.24,31.27 C158.781,25.441 169.919,19.012 181,16 C224.317,4.226 238.141,6.441 282,16 C293.835,18.579 306.138,23.756 316.426,28.892 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-&gt;api-routes" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="321.003,31.24,314.8201,23.5738,316.554,28.9583,311.1694,30.6922,321.003,31.24" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[e96ea1c5b68c8490fb7c58110decec2b]
+link <b>server</b> to config/passport--><path d="M158.811,51.772 C163.801,53.275 169.051,54.765 174,56 C228.338,69.562 291.338,81.259 335.035,88.745 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-&gt;config/passport" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="340,89.592,331.8,84.1368,335.0711,88.7519,330.4559,92.023,340,89.592" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[3987f7f53fc8151d4122888fc2ae5b76]
+link <b>server</b> to express--><path d="M134.941,56.13 C135.155,78.971 137.186,129.691 150,170 C158.556,196.914 174.95,225.0313 186.847,243.4197 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-&gt;express" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="189.767,247.8785,188.1823,238.158,187.0276,243.6957,181.4899,242.541,189.767,247.8785" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[c18e918108318d5e7fc94fe296f66c0c]
+link <b>server</b> to express-session--><path d="M131.266,56.166 C128.943,64.047 126.025,74.564 124,84 C111.783,140.943 102.654,209.103 98.4918,242.8778 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-&gt;express-session" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="97.8668,247.9963,102.9284,239.5476,98.4729,243.0332,94.9874,238.5778,97.8668,247.9963" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[2a7af7854ca3112b1b21e7923499dada]
+link <b>server</b> to html-routes--><path d="M167.207,43 C170.16,43 173.113,43 176.065,43 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-&gt;html-routes" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="181.38,43,172.38,39,176.38,43,172.38,47,181.38,43" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[b7e809b343674b5ae35af92639a4c427]
+link <b>server</b> to models--><path d="M152.196,54.001 C186.782,74.115 264.709,119.436 302.967,141.686 " fill="none" id="&lt;b&gt;server&lt;/b&gt;-&gt;models" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="307.43,144.282,301.6613,136.2994,303.1079,141.7682,297.6391,143.2148,307.43,144.282" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[e30c5dab251ff18576d5cb27515f86ed]
+link <b>user</b> to bcryptjs--><path d="M488,168.832 C488,186.906 488,220.8337 488,242.9145 " fill="none" id="&lt;b&gt;user&lt;/b&gt;-&gt;bcryptjs" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="488,247.9824,492,238.9824,488,242.9824,484,238.9824,488,247.9824" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[50084ea576bffb66d573e30e1f3f59eb]
+link <b>login</b> to <b>members</b>--><!--MD5=[7629f4b6f54f0fe906a762bb7d65c335]
+link <b>login</b> to <b>signup</b>--><script type="text/plantuml"><![CDATA[MD5=[97ffd1913648521213c8c5c9d4ea969d]
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 14
+skinparam ranksep 28
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+(api-routes)
+(config/passport)
+(html-routes)
+(isAuthenticated)
+(<b>login</b>)
+(<b>members</b>)
+(models)
+(<b>server</b>)
+(<b>signup</b>)
+(<b>user</b>)
+
+package "Dependencies" {
+  [bcryptjs]
+  [express]
+  [express-session]
+  [passport-local]
+  [passport/passport]
+  [sequelize]
+}
+
+(api-routes) --> (config/passport)
+(api-routes) --> (models)
+(config/passport) --> (models)
+(config/passport) ---> [passport-local]
+(config/passport) ---> [passport/passport]
+(html-routes) ---> (isAuthenticated)
+(models) ---> [sequelize]
+(<b>server</b>) -[thickness=1]> (api-routes)
+(<b>server</b>) -[thickness=1]> (config/passport)
+(<b>server</b>) --[thickness=1]> [express]
+(<b>server</b>) --[thickness=1]> [express-session]
+(<b>server</b>) -[thickness=1]> (html-routes)
+(<b>server</b>) -[thickness=1]> (models)
+(<b>user</b>) ---[thickness=1]> [bcryptjs]
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>

@@ -96,4 +96,33 @@ This folder contains configuration files for Passport and Sequelize
 
 ###### /config/config.json
 
-This JSON file contains the configuration
+This JSON file contains the configuration for Sequelize to connect to the MySQL database. 
+
+**IMPORTANT**: The details here should be changed to match those of your local database to start developing the application
+
+###### /config/passport.js
+
+This is the configuration file for Passport. In it, passport is told to use the
+"Local" strategy to allow us to manage the users ourselves. This file also
+defines how authentication should behave.
+
+In this case, when we receive an authentication call we check if the e-mail we
+were passed is already registered in the database by using our `User` Sequelize
+model to query for a user registered with that e-mail.
+
+The following describes our authentication flow:
+
+- If a user with the provided email is not found in the database, then we call
+    the Passport's `done` function (Which in the documentation is called _verify
+    callback_) and set the second parameter to `false`, which means
+    authentication failed
+- If the user was found in our database we attempt to check if the password is
+    correct by using our `User` model `validPassword` which in turn will call
+    the `bcrypt`'s `compareSync` function which compares the passport passed to
+    the function with the encrypted version saved in the database.
+    - If the password doesn't match we call the Passport's `done` function with
+        its second parameter set to `false`, which means authentication failed
+    - If the password matches then Passport's `done` function is called with the
+        second parameter set to the record in the database corresponding to the
+        email that was passed, which means authentication succeeded
+
